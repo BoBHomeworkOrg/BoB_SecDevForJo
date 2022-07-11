@@ -6,3 +6,4 @@ for i in range(5):
     list.append(i+1)
 
 print(list)
+print(list[2])
