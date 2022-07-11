@@ -1,16 +1,12 @@
-v0 = 1000
+class Object:
+    def __init__(self):
+        self.v = 1
+
+    def add(self):
+        self.v +=1
 
 
-def add(v1, v2):
-    global v0
-    print(v0)
-    return v1+v2
-
-
-a = int(input("V1:"))
-b = int(input("V2:"))
-
-print(v0)
-print("V1 + V2 =" + str(add(a,b)))
-
-
+a = Object()
+print(a.v)
+a.add()
+print(a.v)
