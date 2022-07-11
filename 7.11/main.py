@@ -1,6 +1,4 @@
-a = int(input("input value:"))
+A = 1
 
-if a >= 10:
-    print("10이상")
-else:
-    print("이하")
+for i in range(1,10):
+    print(2*i)
