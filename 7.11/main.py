@@ -1,5 +1,8 @@
 
 print("Hello world")
 
-i = input("값을 입력하세요:")
-print(i)
+a = int(input("1st value"))
+b = int(input("2nd value"))
+
+c = a+b
+print("sum = " + str(c))
