@@ -2,7 +2,7 @@ v0 = 1000
 
 
 def add(v1, v2):
-    v0 = 90
+    global v0
     print(v0)
     return v1+v2
 
