@@ -1,9 +1,13 @@
 print("Hello world")
 
-list = []
+list = [1, 2, 3, 4, 5]
 
-for i in range(5):
-    list.append(i+1)
+tuple = (1, 2, 3, 4, 5)
 
 print(list)
-print(list[2])
+print(tuple)
+
+list[2] = 10
+tuple[2] = 10
+print(list)
+print(tuple)
