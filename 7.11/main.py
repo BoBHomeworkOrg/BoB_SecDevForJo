@@ -1,9 +1,8 @@
 print("Hello world")
 
-A = 100
-B = 10.0
-C = "10"
-D = True
+list = []
 
-print(A+B)
-print(A+int(C))
+for i in range(5):
+    list.append(i+1)
+
+print(list)
