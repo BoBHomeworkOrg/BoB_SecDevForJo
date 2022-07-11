@@ -1,8 +1,5 @@
+
 print("Hello world")
 
-dic = {
-    'key': 'value'
-}
-
-print(dic)
-print(dic['key'])
+i = input("값을 입력하세요:")
+print(i)
