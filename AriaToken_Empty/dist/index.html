@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>ARIA: A Blockchain and NFT based Decentralized Open Music Platform</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <script defer src="bundle.js"></script></head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-push-2">
+          <br/>
+          <h4 class="text-center">ARIA: A Blockchain and NFT based Decentralized Open Music Platform</h4>
+          <br/>
+        </div>
+      </div>
+
+      <!--
+      <button class="btn btn-default btn-initAccount" type="button" data-id="0">Init Account</button>
+      <button class="btn btn-default btn-loadInstance" type="button" data-id="0">Load</button>
+      -->
+      <span id="account"></span>
+      <br/>
+      <button class="btn btn-default btn-refrash" type="button" data-id="0">Refrash</button>
+      <br/>
+      <input type="text" id="inputTitle" size="20"/>
+      <input type="text" id="inputArtist" size="20"/>
+      <button class="btn btn-default btn-mintNFT" type="button" data-id="0">MintNFT</button>
+      <button class="btn btn-default btn-mintToken" type="button" data-id="0">MintAriaToken</button>
+      <br/>
+      <button class="btn btn-default btn-balanceOf" type="button" data-id="0">balanceOf</button>
+      <br/>
+      <span id="balanceOf">0 ARA</span>
+
+      <br/><br/>
+      <div id="contentsRow" class="row">
+
+      </div>
+
+      <div id="contentTemplate" style="display: none;">
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="panel panel-default panel-pet">
+            <div class="panel-heading">
+              <h3 class="panel-title">Content</h3>
+            </div>
+            <div class="panel-body">
+              <strong>ID</strong>: <span class="content-id">id</span><br/>
+              <strong>Title</strong>: <span class="content-title">title</span><br/>
+              <strong>Artist</strong>: <span class="content-artist">artist</span><br/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--                    -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
