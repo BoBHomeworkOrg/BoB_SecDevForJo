@@ -7,6 +7,7 @@
 [보안제품개발트랙]
 실습
   1. Make Block Chain(mini)
+  2. DApp (Aria Token)
   
 과제 
   1. Using Smart Contract Make Games
